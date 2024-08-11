@@ -84,22 +84,22 @@
                 var e = window.event;
                 console.log(e.keyCode);
                 if (e.keyCode == 87) {
-                    let top = feiji.offsetTop - 8;
+                    let top = feiji.offsetTop - 10;
                     if (top <= 10) top = 10;
                     feiji.style.top = top + 'px';
                 }
                 if (e.keyCode == 83) {
-                    let top = feiji.offsetTop + 8;
+                    let top = feiji.offsetTop + 10;
                     if (top >= 420) top = 420;
                     feiji.style.top = top + 'px';
                 }
                 if (e.keyCode == 65) {
-                    let left = feiji.offsetLeft - 8;
+                    let left = feiji.offsetLeft - 10;
                     if (left <= 5) left = 5;
                     feiji.style.left = left + 'px';
                 }
                 if (e.keyCode == 68) {
-                    let left = feiji.offsetLeft + 8;
+                    let left = feiji.offsetLeft + 10;
                     if (left >= 265) left = 265;
                     feiji.style.left = left + 'px';
                 }
